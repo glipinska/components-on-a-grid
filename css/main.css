@@ -2,6 +2,8 @@ html {
   box-sizing: border-box;
   font-family: Georgia, serif;
   line-height: 1.5;
+  background-color: #f2f1ed;
+  color: #000;
 }
 
 *,
@@ -23,6 +25,20 @@ body {
 
 .pano {
   grid-area: banner;
+}
+
+figure {
+  margin: -1rem;
+  padding: 1rem;
+}
+
+h2 {
+  font-family: "Patua One", sans-serif;
+  color: #30658d;
+}
+
+p {
+ margin: -1rem 0;
 }
 
 img {
@@ -47,10 +63,10 @@ a {
   color: #fff;
   font-size: 2rem;
   font-family: "Patua One", sans-serif;
+  padding: 1rem;
 }
 
 li {
-
 list-style-type: none;
 
 }
