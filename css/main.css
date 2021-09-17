@@ -19,8 +19,8 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
-  "banner banner"
-  "figure figure"
+    "banner banner"
+    "figure figure";
 }
 
 .pano {
@@ -38,7 +38,7 @@ h2 {
 }
 
 p {
- margin: -1rem 0;
+  margin: -1rem 0;
 }
 
 img {
@@ -67,8 +67,7 @@ a {
 }
 
 li {
-list-style-type: none;
-
+  list-style-type: none;
 }
 
 ul {
