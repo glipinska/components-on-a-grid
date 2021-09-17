@@ -37,3 +37,36 @@ header {
 main {
   display: contents;
 }
+
+nav {
+  grid-column: 2/-1;
+  grid-row: 1;
+}
+
+a {
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Patua One", sans-serif;
+}
+
+li {
+
+list-style-type: none;
+
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 14rem;
+  grid-column: 1;
+  grid-row: 1;
+  align-self: end;
+  z-index: 1;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
